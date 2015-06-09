@@ -50,4 +50,22 @@ $(document).ready(function(){
     $(".search-type").mouseleave(function(){
         $(this).css("display","none");
     });
+
+    //display event-form
+    $(".event>span").click(function(){
+        var $form=$(".event-form-wrapper");
+        var $planEvent=$(".plan-event");
+        if($planEvent.hasClass("fa-caret-right")){
+            $planEvent.removeClass("fa-caret-right");
+            $planEvent.addClass("fa-caret-down");
+        }else{
+            $planEvent.removeClass("fa-caret-down");
+            $planEvent.addClass("fa-caret-right");
+        }
+        if($form.css("display")==="none"){
+            $form.css("display","block");
+        }else{
+            $form.css("display","none");
+        }
+    });
 });
