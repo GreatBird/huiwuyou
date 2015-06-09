@@ -1,0 +1,73 @@
+.footer-wrapper{
+    width:100%;
+    height:180px;
+    position:relative;
+    padding-top:20px;
+    border-top:1px solid rgb(243,243,243);
+}
+.footer{
+    width:990px;
+    height:100%;
+    margin:auto;
+}
+.footer-top{
+    position:relative;
+    width:100%;
+    height:90%;
+    margin-left:10%;
+}
+.footer-category{
+    float:left;
+    margin-right:60px;
+}
+.footer-category ul{
+    margin-top:20px;
+    font-size:12px;
+    color:rgb(158,143,146);
+}
+.footer-category ul li{
+    height:30px;
+}
+.footer-bottom{
+    width:100%;
+    height:10%;
+    font-size:12px;
+}
+.bottom-content{
+    width:100%;
+    text-align:center;
+}
+.link-list{
+    margin:15px;
+}
+.link-list a{
+    margin:0px 6px;
+}
+.bottom-content p{
+    text-align:center;
+}
+.ico{
+    width:19px;
+    height:18px;
+    background-image:url("../resource/icon.png");
+    display:inline-block;
+    vertical-align:middle;
+}
+.address-icon{
+    background-position:0px -475px;
+}
+.phone-icon{
+    background-position:0px -535px;
+}
+.email-icon{
+    background-position:0px -560px;
+}
+.sina-ico{
+    background-position:-10px -88px;
+}
+.tencent-ico{
+    background-position:-34px -88px;
+}
+.scan-ico{
+    background-position:-54px -88px;
+}
