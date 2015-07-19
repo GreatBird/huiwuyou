@@ -1,73 +1,184 @@
 .footer-wrapper{
     width:100%;
-    height:180px;
+    height:auto;
     position:relative;
-    padding-top:20px;
     border-top:1px solid rgb(243,243,243);
+    margin-top:0px;
+    margin-bottom:0px;
 }
-.footer{
+.footer-top-wrapper{
+    width:100%;
+    height:230px;
+    padding:30px 0px;
+    background-color:#f3f5f8;
+}
+.footer-top{
+    position:relative;
     width:1170px;
     height:100%;
     margin:auto;
 }
-.footer-top{
-    position:relative;
-    width:100%;
-    height:90%;
-    margin-bottom:20px;
-}
-.footer-category{
+.footer-top>div{
+    margin-right:100px;
     float:left;
-    margin-right:60px;
 }
-.footer-category ul{
-    margin-top:20px;
-    font-size:12px;
-    color:rgb(158,143,146);
-}
-.footer-category ul li{
-    height:30px;
-}
-.footer-bottom{
-    border-top:1px solid black;
-    width:100%;
-    font-size:12px;
-}
-.bottom-content{
-    width:100%;
-    text-align:center;
-}
-.link-list{
-    margin:15px;
-}
-.link-list a{
-    margin:0px 6px;
-}
-.bottom-content p{
-    text-align:center;
-}
-.ico{
-    width:19px;
-    height:18px;
-    background-image:url("../resource/icon.png");
-    display:inline-block;
+.footer-top>div>h4{
+    font-size:16px;
+    color:#666;
+    margin-bottom:14px;
+    height:23px;
+    line-height:23px;
     vertical-align:middle;
 }
-.address-icon{
-    background-position:0px -475px;
+.footer-top>div>ul li{
+    font-size:12px;
+    margin-bottom:10px;
 }
-.phone-icon{
-    background-position:0px -535px;
+.footer-bottom-wrapper{
+    width:100%;
+    height:280px;
+    background-color:#444;
 }
-.email-icon{
-    background-position:0px -560px;
+.footer-bottom{
+    width:1170px;
+    margin:auto;
+    border-bottom:1px solid #666;
 }
-.sina-ico{
-    background-position:-10px -88px;
+.footer-bottom .hot-city{
+    width:100%;
+    height:65px;
+    margin:auto;
+    margin-bottom:37px;
+    padding-top:20px;
 }
-.tencent-ico{
-    background-position:-34px -88px;
+.footer-bottom .friend-link{
+    width:100%;
+    height:123px;
+    margin:auto;
+    margin-bottom:54px;
 }
-.scan-ico{
-    background-position:-54px -88px;
+.footer-bottom h4{
+    font-size:16px;
+    margin-bottom:20px;
+    color:#fff;
+}
+.footer-bottom ul li{
+    font-size:14px;
+    margin-right:23px;
+    color:#999;
+    float:left;
+    margin-bottom:15px;
+}
+.footer-bottom ul li a{
+    color:#999;
+}
+.footer-bottom ul li a:hover{
+    text-decoration:none;
+}
+.footer-bottom-bar-wrapper{
+    background-color:#444;
+    width:100%;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.footer-bottom-bar{
+    width:1170px;
+    margin:auto;
+    padding-top:50px;
+    height:200px;
+}
+.bot-logo{
+    float:left;
+    width:250px;
+    margin-left:100px;
+    margin-right:50px;
+}
+.bot-logo img{
+    width:183px;
+    height:82px;
+}
+.bot-copy{
+    float:left;
+    width:500px;
+    text-align:center;
+}
+.bot-copy p{
+    margin-bottom:12px;
+    line-height:35px;
+    vertical-align:middle;
+    font-size:10px;
+    color:#999;
+}
+.bot-copy img{
+    margin-right:20px;
+}
+.top-app ul li a{
+    display:inline-block;
+    width:125px;
+    height:36px;
+    background-image:url("../resource/app.png");
+    background-repeat:no-repeat;
+}
+.top-app ul li a:hover{
+    background-image:url("../resource/app_on.png");
+}
+.top-weixin img{
+    width:130px;
+    height:130px;
+}
+div.top-weixin ul li{
+    font-size:16px;
+    text-align:center;
+    color:#999;
+}
+a.android{
+    background-position:0px 0px;
+}
+a.android:hover{
+    background-position:0px 0px;
+}
+a.iphone{
+    background-position:0px -46px;
+}
+a.iphone:hover{
+    background-position:0px -48px;
+}
+a.download{
+    background-position:0px -92px
+}
+a.download:hover{
+    background-position:0px -93px;
+}
+div.top-contact{
+    margin-right:0px;
+}
+.top-app h4,.top-weixin h4,.top-contact h4{
+    background-image:url("../resource/sprite_link.png");
+    background-repeat:no-repeat;
+    padding-left:30px;
+}
+.top-app h4{
+    background-position:0px 0px;
+}
+.top-weixin h4{
+    background-position:0px -25px;
+}
+.top-contact h4{
+    background-position:0px -50px;
+}
+p.desc{
+    padding-bottom:16px;
+    border-bottom:1px solid #d5d5d5;
+    color:#999;
+    font-size:12px;
+    text-align:center;
+    line-height:16px;
+    vertical-align:middle;
+}
+p.follow-us{
+    font-size:12px;
+    text-align:center;
+    color:#333;
+    margin-bottom:18px;
+    margin-top:20px;
 }

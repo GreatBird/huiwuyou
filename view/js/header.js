@@ -6,12 +6,14 @@ $(document).ready(function(){
     $(".fast-nav-item").mouseenter(function(){
         $(this).children(".fa").removeClass("fa-caret-right").addClass("fa-caret-down");
         $(this).next(".fast-link").css("display","block");
-        $(this).addClass("activated")
+        $(this).addClass("activated");
+        $(".fast-nav-item").css("background-color","white");
     });
     $(".fast-link").mouseenter(function(){
         $(this).prev(".fast-nav-item").children(".fa").removeClass("fa-caret-right").addClass("fa-caret-down");
         $(this).css("display","block");
-        $(this).addClass("activated")
+        $(this).addClass("activated");
+        $(".fast-nav-item").css("background-color","white");
     });
 
     //hide links when mouse moves out "fast-link" element
@@ -20,13 +22,15 @@ $(document).ready(function(){
         if($fastLink.css("display")==="block") {
             $(this).children(".fa").removeClass("fa-caret-down").addClass("fa-caret-right");
             $fastLink.css("display", "none");
-            $(this).removeClass("activated")
+            $(this).removeClass("activated");
+            $(".fast-nav-item").css("background-color","rgb(243,243,243)");
         }
     });
     $(".fast-link").mouseleave(function(){
         $(this).prev(".fast-nav-item").children(".fa").removeClass("fa-caret-down").addClass("fa-caret-right");
         $(this).css("display","none");
-        $(this).removeClass("activated")
+        $(this).removeClass("activated");
+        $(".fast-nav-item").css("background-color","rgb(243,243,243)");
     });
 
     //select search type

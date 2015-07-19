@@ -1,0 +1,199 @@
+.release-demand-container{
+    width:100%;
+    border-top:1px solid #eeeeee;
+}
+.release-demand-content{
+    width:900px;
+    margin:30px auto 70px auto;
+    border:1px solid #e5e5e5;
+    background-color:#fff;
+}
+.release-demand-header{
+    height:90px;
+    width:100%;
+    position:relative;
+}
+.release-demand-header a{
+    float:left;
+    width:50%;
+    height:100%;
+    color:rgb(41,104,251);
+    background-color:white;
+    cursor:pointer;
+    position:relative;
+}
+.release-demand-header a:hover{
+    text-decoration:none;
+}
+.release-demand-header a div{
+    height:90px;
+    text-align:center;
+    font-size:14px;
+}
+.release-demand-header>a>div>h3{
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.release-demand-header a.need-type-active{
+    background-color:rgb(41,104,251);
+    color:white;
+}
+.down-triangle{
+    position:absolute;
+    bottom:-24px;
+    margin-left:-12px;
+    left:50%;
+    width:0px;
+    height:0px;
+    border:12px solid rgb(41,104,251);
+    border-bottom:12px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    z-index:100;
+}
+.general-need,.detail-need{
+    font-size:14px;
+    padding-top:20px;
+}
+.need-bar{
+    width:800px;
+    height:35px;
+    margin:20px auto 20px;
+    color:#666;
+    background-color:#f5f5f5;
+    line-height:35px;
+    vertical-align:middle;
+    text-align:center;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    position:relative;
+}
+.need-bar h4{
+    position:absolute;
+    width:120px;
+    height:36px;
+    top:-10px;
+    left:50%;
+    margin-left:-60px;
+    color:white;
+    background-color:rgb(41,104,251);
+    font-size:16px;
+    line-height:36px;
+    vertical-align:middle;
+}
+.need-bar h4 em{
+    width:0px;
+    height:0px;
+    border:5px solid #345DA2;
+    border-top:5px solid transparent;
+    border-left:5px solid transparent;
+    position:absolute;
+    left:-10px;
+}
+.form-row{
+    margin:20px auto;
+    width:600px;
+    text-align:center;
+}
+.form-row input[type="text"]{
+    width:400px;
+    height:35px;
+    outline:none;
+    padding-left:5px;
+    font-size:14px;
+    vertical-align:middle;
+}
+.form-row label{
+    width:120px;
+    display:inline-block;
+    text-align:right;
+    height:35px;
+    line-height:35px;
+    vertical-align:middle;
+}
+.form-row label em{
+    color:#f16120;
+    font-weight:bold;
+    margin-right:5px;
+}
+.form-row select{
+    width:400px;
+    height:35px;
+    outline:none;
+    border:1px solid #ddd;
+    background-color:white;
+    line-height:35px;
+    vertical-align:middle;
+    color:#666;
+    padding-left:10px;
+    font-size:14px;
+}
+.form-row-textarea{
+    margin:20px auto;
+    width:600px;
+    text-align:center;
+}
+.form-row-textarea label{
+    display:inline-block;
+    height:78px;
+    width:120px;
+    line-height:78px;
+    vertical-align:middle;
+    text-align:right;
+}
+.form-row-textarea textarea{
+    width:400px;
+    height:78px;
+    border:1px solid #ddd;
+    font-family:"microsoft Yahei";
+    overflow:hidden;
+    font-size:14px;
+    color:#666;
+    padding:5px;
+    resize:none;
+    vertical-align:middle;
+}
+.form-row .check-contact{
+    width:600px;
+    text-align:center;
+}
+.form-row input[type="submit"]{
+    width:400px;
+    height:38px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    background-color:rgb(41,104,251);
+    font-size:14px;
+    color:white;
+    outline:none;
+    border:none;
+    margin-bottom:20px;
+    margin-left:60px;
+}
+.form-row select.date-type{
+    width:100px;
+}
+.time-point,.time-gap{
+    display:none;
+    width:300px;
+}
+.form-row .time-point input{
+    width:298px;
+}
+.form-row .time-gap input{
+    display:inline-block;
+    width:146px;
+}
+.form-row .date-type-active{
+    display:inline-block;
+}
+#general-need{
+    display:none;
+}
