@@ -4,8 +4,6 @@
         <meta charset="UTF-8">
         <link type="text/css" href="css/reset.css" rel="stylesheet" />
         <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet" />
-        <link type="text/css" href="css/header.css" rel="stylesheet" />
-        <link type="text/css" href="css/footer.css" rel="stylesheet" />
         <link type="text/css" href="css/index.css" rel="stylesheet" />
         <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
     </head>
@@ -383,6 +381,5 @@
     <?php
         include "footer.php";
     ?>
-     <script src="js/header.js" type="text/javascript"></script>
     </body>
 </html>
