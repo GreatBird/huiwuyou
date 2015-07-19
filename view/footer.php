@@ -1,0 +1,127 @@
+    <link type="text/css" href="css/footer.css" rel="stylesheet" />
+        <div class="footer-wrapper">
+            <div class="footer-top-wrapper">
+                <div class="footer-top">
+                    <div class="top-activity">
+                        <h4>我要办活动</h4>
+                        <ul>
+                            <li>找场地</li>
+                            <li>会议套餐</li>
+                            <li>配套服务</li>
+                            <li>手机客户端</li>
+                        </ul>
+                    </div>
+                    <div class="top-help">
+                        <h4>帮助中心</h4>
+                        <ul>
+                            <li>常见问题</li>
+                        </ul>
+                    </div>
+                    <div class="top-about">
+                        <h4>关于淘会场</h4>
+                        <ul>
+                            <li>关于我们</li>
+                            <li>服务条款</li>
+                            <li>隐私政策</li>
+                            <li>联系我们</li>
+                            <li>融资报道</li>
+                        </ul>
+                    </div>
+                    <div class="top-app">
+                        <h4>移动APP</h4>
+                        <ul>
+                            <li><a href="#" class="android"></a></li>
+                            <li><a href="#" class="iphone"></a></li>
+                            <li><a href="#" class="download"></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-weixin">
+                        <h4>微信扫一扫</h4>
+                        <ul>
+                            <li><img src="resource/erwei.jpg" alt="erweixin" title="erweixin" />
+                                <br />
+                                关注淘会场服务号
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-contact">
+                        <h4><span>400-963-3116</span></h4>
+                        <p class="desc">咨询热线 9:00～21:00</p>
+                        <p class="follow-us">关注我们</p>
+                        <div class="plugn">
+                            <a></a>
+                            <a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrapper">
+                <div class="footer-bottom">
+                    <div class="hot-city">
+                        <h4>热门会议城市</h4>
+                        <ul>
+                            <li><a href="#">重庆会议场地</a></li>
+                            <li><a href="#">成都会议场地</a></li>
+                            <li><a href="#">武汉会议场地</a></li>
+                            <li><a href="#">长沙会议场地</a></li>
+                            <li><a href="#">昆明会议场地</a></li>
+                            <li><a href="#">西安会议场地</a></li>
+                            <li><a href="#">贵阳会议场地</a></li>
+                            <li><a href="#">北京会议场地</a></li>
+                            <li><a href="#">上海会议场地</a></li>
+                        </ul>
+                    </div>
+                    <div class="friend-link">
+                        <h4>友情链接</h4>
+                        <ul>
+                            <li><a href="#">驴友空间</a></li>
+                            <li><a href="#">中国会展用户</a></li>
+                            <li><a href="#">中国会议产业网</a></li>
+                            <li><a href="#">新女网</a></li>
+                            <li><a href="#">家具网上商城</a></li>
+                            <li><a href="#">北京度假村</a></li>
+                            <li><a href="#">会议管理</a></li>
+                            <li><a href="#">展会</a></li>
+                            <li><a href="#">广告策划</a></li>
+                            <li><a href="#">会议网</a></li>
+                            <li><a href="#">苏州青旅</a></li>
+                            <li><a href="#">渝北网</a></li>
+                            <li><a href="#">活动策划</a></li>
+                            <li><a href="#">展览信息</a></li>
+                            <li><a href="#">展会追踪</a></li>
+                            <li><a href="#">展会信息</a></li>
+                            <li><a href="#">展览／会展</a></li>
+                            <li><a href="#">中国酒店网</a></li>
+                            <li><a href="#">美国旅游</a></li>
+                            <li><a href="#">儿童摄影</a></li>
+                            <li><a href="#">孕妇摄影</a></li>
+                            <li><a href="#">北京别墅设计</a></li>
+                            <li><a href="#">活动隔断</a></li>
+                            <li><a href="#">婚礼策划</a></li>
+                            <li><a href="#">杭州包车公司</a></li>
+                            <li><a href="#">大连婚纱摄影</a></li>
+                            <li><a href="#">电子喜帖</a></li>
+                            <li><a href="#">成都装修分公司</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-bar-wrapper">
+                <div class="footer-bottom-bar">
+                    <div class="bot-logo">
+                        <a href="index.php"><img src="resource/thc_logo.png" alt="logo" title="logo" /></a>
+                    </div>
+                    <div class="bot-copy">
+                        <p>
+                            Copyright @ 2014 淘会场 taohuichang.com版权所有
+                            <br />
+                            重庆市公安局备案编号50010302000177 | 渝ICP备13001001号 | 增值电信业务经营许可证渝B1.B2-20150006
+                        </p>
+                        <div>
+                             <a href="#"><img src="resource/polizia.png" alt="polizia" title="polizia" /></a>
+                             <a href="#"><img src="resource/telecom.png" alt="telecom" title="telecom" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
