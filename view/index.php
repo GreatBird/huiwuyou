@@ -105,17 +105,17 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="" title="" alt="" />
+                            <img src="resource/hotel.jpg" title="" alt="" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="" title="" alt="" />
+                            <img src="resource/hotel.jpg" title="" alt="" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img />
+                            <img src="resource/hotel.jpg" title="" alt="" />
                         </a>
                     </li>
                 </ul>
@@ -131,14 +131,14 @@
                 <div class="meeting-content">
                     <div class="meeting-big-pic">
                         <a href="#">
-                            <img src="" alt="" title="" />
+                            <img src="resource/hotel.jpg" alt="" title="" />
                         </a>
                     </div>
                     <div class="meeting-pic-area">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -146,7 +146,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -154,7 +154,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -162,14 +162,14 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <span class="gray">1000平米 | 可容纳2000</span>
                                 </a>
                             </li>
                              <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -177,7 +177,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -185,7 +185,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -193,7 +193,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -215,14 +215,14 @@
                 <div class="meeting-content">
                     <div class="meeting-big-pic">
                         <a href="#">
-                            <img src="" alt="" title="" />
+                            <img src="resource/hotel.jpg" alt="" title="" />
                         </a>
                     </div>
                     <div class="meeting-pic-area">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -230,7 +230,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -238,7 +238,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -246,14 +246,14 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <span class="gray">1000平米 | 可容纳2000</span>
                                 </a>
                             </li>
                              <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -261,7 +261,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -269,7 +269,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -277,7 +277,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -299,14 +299,14 @@
                 <div class="meeting-content">
                     <div class="meeting-big-pic">
                         <a href="#">
-                            <img src="" alt="" title="" />
+                            <img src="resource/hotel.jpg" alt="" title="" />
                         </a>
                     </div>
                     <div class="meeting-pic-area">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -314,7 +314,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -322,7 +322,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -330,14 +330,14 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <span class="gray">1000平米 | 可容纳2000</span>
                                 </a>
                             </li>
                              <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -345,7 +345,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -353,7 +353,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>
@@ -361,7 +361,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="" alt="" title="" />
+                                    <img src="resource/place.jpg" alt="" title="" />
                                     <em>金陵大酒店</em>
                                     <br />
                                     <span class="gray">1000平米 | 可容纳2000</span>

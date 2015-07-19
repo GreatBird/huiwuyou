@@ -194,7 +194,7 @@
             <div class="filter-result">
                 <div class="result-content">
                     <div class="result-left-content">
-                        <img src="" alt="" title="" />
+                        <img src="resource/small.png" alt="" title="" />
                         <p class="result-pic-desc"><span class="result-num">1</span><span class="result-name">南充伯爵咖啡</span></p>
                         <br />
                         <span class="result-place">场地类型：咖啡厅</span>
@@ -210,7 +210,7 @@
                     <span>展开<i class="fa fa-caret-down"></i></span>
                 </div>
                 <div class="result-detail-info-content">
-                    <img src="" alt="" title="" />
+                    <img src="resource/small.png" alt="" title="" />
                     <div class="detail-info-desc">
                         <p class="detail-info-name">伯爵咖啡</p>
                         <p class="detail-info-structure">面积220平米 层高3米</p>
