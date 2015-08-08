@@ -1,0 +1,50 @@
+.wrapper{
+	width:100%;
+	height:auto;
+}
+.basic-need-wrapper{
+	width:1180px;
+	margin:20px auto;
+}
+h5{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+span.must-have{
+	display:inline-block;
+	width:10px;
+	height:32px;
+	line-height:32px;
+	vertical-align:middle;
+	text-align:center;
+	color:red;
+}
+.need-name{
+	font-size:15px;
+	font-weight:bold;
+}
+h5.inline-h5{
+	display:inline-block;
+}
+.basic-need-wrapper tr td{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+input.num-input{
+	width:60px;
+	height:24px;
+	font-size:14px;
+	padding-left:6px;
+	margin:0px 4px;
+}
+input.time-input,input.text-input{
+	width:200px;
+	height:24px;
+	font-size:14px;
+	padding-left:6px;
+	margin:0px 4px;
+}
+textarea.other-need{
+	width:300px;
+	height:100px;
+}

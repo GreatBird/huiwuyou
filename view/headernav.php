@@ -29,7 +29,7 @@
                         <a href="#">配套服务</a>
                     </li>
                     <li>
-                        <a href="demand.php">需求大厅</a>
+                        <a href="demand_new.php">需求大厅</a>
                     </li>
                     <li class="event">
                         <span>办活动，从这里开始</span><i class="plan-event fa fa-caret-right"></i>
