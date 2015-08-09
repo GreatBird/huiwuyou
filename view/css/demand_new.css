@@ -325,6 +325,18 @@
 	height:120px;
 	border-bottom:1px dashed #ececec;
 	overflow:hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.demand-list>ul>li:hover{
+	border:1px solid blue;
+}
+.demand-list ul li a{
+	text-decoration:none;
+	color:black;
 }
 .demand-show{
 	float:left;
