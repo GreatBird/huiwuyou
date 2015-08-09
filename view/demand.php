@@ -13,23 +13,7 @@
         <div class="demand-wrapper">
             <div class="demand-content-container">
                 <div class="demand-left-content-container">
-                    <div class="demand-city-list">
-                        <ul>
-                            <li class="demand-city-active"><a href="#">全部城市</a></li>
-                            <li><a href="#">武汉</a></li>
-                            <li><a href="#">西安</a></li>
-                            <li><a href="#">成都</a></li>
-                            <li><a href="#">长沙</a></li>
-                            <li><a href="#">重庆</a></li>
-                            <li><a href="#">昆明</a></li>
-                            <li><a href="#">贵阳</a></li>
-                            <li><a href="#">北京</a></li>
-                            <li><a href="#">上海</a></li>
-                            <li><a href="#">广州</a></li>
-                            <li><a href="#">深圳</a></li>
-                            <li><a href="#">杭州</a></li>
-                        </ul>
-                    </div>
+
                     <div class="demand-content-list">
                         <ul>
                             <li>
