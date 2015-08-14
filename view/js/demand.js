@@ -1,14 +1,17 @@
 /**
  * Created by wangfulin on 6/20/15.
  */
-$("#show-detail").click(function(){
+$(".demand-list>ul>li>a").click(function(){
+    $(this).nextAll(".demand-content-wrapper").css("display","block");
+});
+$(".show-detail").click(function(){
     $(".demand-detail").css("display","block");
-    $("#hide-detail").css("display","block");
+    $(this).next(".hide-detail").css("display","block");
     $(this).css("display","none");
 });
 
-$("#hide-detail").click(function(){
+$(".hide-detail").click(function(){
     $(".demand-detail").css("display","none");
-    $("#show-detail").css("display","block");
+    $(this).prev(".show-detail").css("display","block");
     $(this).css("display","none");
 });
