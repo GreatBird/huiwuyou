@@ -24,10 +24,14 @@
     </script>
 </head>
 <body>
+    <div class="header-wrapper">
+        <?php include "headerbar.php" ?>
+        <?php include "headerposition.php" ?>
+    </div>
     <div class="hotelSignUp-container">
         <div class="hotelSignUp">
             <form>
-                <div class="basic-info">
+                <div class="part-info basic-info">
                     <table>
                         <tr>
                             <td>酒店信息：</td>
@@ -36,21 +40,21 @@
                         <tr>
                             <td>酒店地址：</td>
                             <td>
-                                <select id="province" name="province" onchange="LocalList.mf_processStateList()" style="display:inline;">
+                                <select class="city-select" id="province" name="province" onchange="LocalList.mf_processStateList()" style="display:inline;">
                                 </select>
-                                <select id="city" name="city" onchange="LocalList.mf_processCityList()" style="display:inline;">
+                                <select class="city-select" id="city" name="city" onchange="LocalList.mf_processCityList()" style="display:inline;">
                                 </select>
-                                <select id="area" name="area" style="display:inline;">
+                                <select class="city-select" id="area" name="area" style="display:inline;">
                                 </select>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="floatLeft">
                             <td>详细地址：</td>
                             <td><input type="text" /></td>
                         </tr>
                     </table>
                 </div>
-                <div class="more-info">
+                <div class="part-info more-info">
                     <table>
                         <tr>
                             <td>酒店类型：</td>
@@ -82,7 +86,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="auth-info">
+                <div class="part-info auth-info">
                     <table>
                         <tr>
                             <td>可提供发票：</td>
@@ -116,7 +120,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="personal-info">
+                <div class="part-info personal-info">
                     <table>
                         <tr>
                             <td>性别：</td>
@@ -146,7 +150,7 @@
                             <td><input type="text" name="" /></td>
                         </tr>
                         <tr>
-                            <td><input type="submit" value="提交申请" /></td>
+                            <td class="hotel-submit"><input type="submit" value="提交申请" /></td>
                         </tr>
                     </table>
                 </div>

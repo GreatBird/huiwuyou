@@ -1,0 +1,49 @@
+.hotelSignUp-container{
+    width:100%;
+    height:auto;
+}
+.hotelSignUp{
+    width:1170px;
+    margin:auto;
+}
+.part-info{
+    border-bottom:1px dotted #666;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+.part-info>table tr{
+    float:left!important;
+    width:520px;
+}
+.floatLeft{
+    clear:both;
+}
+.part-info>table tr>td{
+    padding:6px 2px;
+}
+.part-info>table tr>td:first-child{
+    width:150px;
+    text-align:right;
+}
+.city-select{
+    width:80px;
+}
+td.hotel-submit{
+    width:1040px;
+    padding-left:470px;
+
+}
+.hotel-submit input{
+    width:100px;
+    height:40px;
+    font-size:16px;
+    color:white;
+    background-color:rgb(41,105,251);
+    outline:none;
+    border:none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
