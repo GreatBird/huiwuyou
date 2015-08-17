@@ -492,11 +492,7 @@ span.demand-for{
 	bottom:20px;
 	left:-18px;
 }
-.btns{
-	margin-right:80px;
-}
 .demand-btn{
-	display:block;
 	height:36px;
 	width:112px;
 	font-size:14px;
@@ -509,8 +505,14 @@ span.demand-for{
 	border-radius:5px;
 	outline:none;
 	border:none;
-	margin-top:20px;
+	margin-top:10px;
+	margin-left:20px;
 	cursor:pointer;
+}
+.hide-detail,.show-detail{
+	position:absolute;
+	top:70px;
+	right:100px;
 }
 label.demand-urgent{
 	display:inline-block;

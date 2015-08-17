@@ -2,10 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
 		<link type="text/css" rel="stylesheet" href="css/base.css" />
 		<link type="text/css" rel="stylesheet" href="css/basicNeed.css" />
 	</head>
 	<body>
+		<?php
+                include "header.php";
+        ?>
 		<div class="wrapper">
 			<div class="basic-need-wrapper">
 				<form>
@@ -67,9 +71,17 @@
 								<textarea class="other-need"></textarea>
 							</td>
 						</tr>
+						<tr>
+							<td><input class="btn-submit" type="submit" value="提交" /></td>
+						</tr>
 					</table>
 				</form>
 			</div>
 		</div>
+ 	<!-- content end -->
+
+    <?php
+        include "footer.php";
+    ?>
 	</body>
 </html>

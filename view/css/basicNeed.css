@@ -3,7 +3,7 @@
 	height:auto;
 }
 .basic-need-wrapper{
-	width:1180px;
+	width:1000px;
 	margin:20px auto;
 }
 h5{
@@ -47,4 +47,19 @@ input.time-input,input.text-input{
 textarea.other-need{
 	width:300px;
 	height:100px;
+}
+.btn-submit{
+	width:100px;
+	height:42px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	background-color:rgb(41,105,251);
+	outline:none;
+	border:none;
+	font-size:16px;
+	color:white;
+	margin-left:100px;
 }
