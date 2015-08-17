@@ -1,15 +1,46 @@
 .hotelSignUp-container{
     width:100%;
     height:auto;
+    margin-top:20px;
 }
 .hotelSignUp{
     width:1170px;
     margin:auto;
 }
+fieldset{
+    border:1px solid grey;
+    padding-top:20px;
+}
+input{
+    color:black;
+    font-size:16px;
+    border-radius:5px;
+    -wekbit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    outline:none;
+    border:1px solid #666;
+}
+form{
+    /*background-color:rgb(40,106,255);*/
+    /*color:white;*/
+}
+legend{
+    width:200px;
+    text-align:center;
+    margin-left:440px;
+    padding:10px 0px;
+}
 .part-info{
     border-bottom:1px dotted #666;
     padding-bottom:20px;
     margin-bottom:20px;
+}
+.personal-info{
+    border-bottom:none;
+    padding-bottom:0px;
+    nargin-bottom:10px;
 }
 .part-info>table tr{
     float:left!important;
@@ -19,19 +50,37 @@
     clear:both;
 }
 .part-info>table tr>td{
-    padding:6px 2px;
+    padding:10px 0px;
 }
 .part-info>table tr>td:first-child{
-    width:150px;
+    width:180px;
     text-align:right;
 }
+.part-info>table tr>td>input[type="text"]{
+    width:250px;
+    height:30px;
+    padding:3px 6px;
+}
+select{
+    height:30px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    outline:none;
+    border:1px solid #999;
+    box-shadow:0px 0px transparent;
+}
 .city-select{
-    width:80px;
+    width:92px;
 }
 td.hotel-submit{
+    display:block;
     width:1040px;
+    margin-left:470px;
     padding-left:470px;
-
+    padding-top:10px;
 }
 .hotel-submit input{
     width:100px;
@@ -46,4 +95,9 @@ td.hotel-submit{
     -moz-border-radius:5px;
     -ms-border-radius:5px;
     -o-border-radius:5px;
+}
+.auth-tip{
+    color:red;
+    font-weight:bold;
+    font-style:italic;
 }

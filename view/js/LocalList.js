@@ -16,7 +16,10 @@ var Util_List = {
 			} catch (e) {
 			}
 		}
-		this.mf_add(lo_ListObj, '---', '');
+		this.mf_add(lo_ListObj, '请选择地址', '');
+		//this.mf_add(self.mo_countryObj,"请选择省份","");
+		//this.mf_add(self.mo_stateObj,"请选择城市","");
+		//this.mf_add(self.mo_cityObj,"请选择区","");
 	},
 	mf_select : function(lo_ListObj, ld_Value) {
 		var ld_i = 0;
