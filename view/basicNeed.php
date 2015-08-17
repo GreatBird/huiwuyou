@@ -78,5 +78,10 @@
 				</form>
 			</div>
 		</div>
+ 	<!-- content end -->
+
+    <?php
+        include "footer.php";
+    ?>
 	</body>
 </html>

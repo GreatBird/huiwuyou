@@ -1,4 +1,3 @@
-
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -31,132 +30,140 @@
     </div>
     <div class="hotelSignUp-container">
         <div class="hotelSignUp">
-            <form>
-                <div class="part-info basic-info">
-                    <table>
-                        <tr>
-                            <td>酒店信息：</td>
-                            <td><input type="text" /></td>
-                        </tr>
-                        <tr>
-                            <td>酒店地址：</td>
-                            <td>
-                                <select class="city-select" id="province" name="province" onchange="LocalList.mf_processStateList()" style="display:inline;">
-                                </select>
-                                <select class="city-select" id="city" name="city" onchange="LocalList.mf_processCityList()" style="display:inline;">
-                                </select>
-                                <select class="city-select" id="area" name="area" style="display:inline;">
-                                </select>
-                            </td>
-                        </tr>
-                        <tr class="floatLeft">
-                            <td>详细地址：</td>
-                            <td><input type="text" /></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="part-info more-info">
-                    <table>
-                        <tr>
-                            <td>酒店类型：</td>
-                            <td>
-                                <select>
-                                    <option>五星／顶级</option>
-                                    <option>五星／豪华</option>
-                                    <option>五星／高档</option>
-                                    <option>五星／舒适</option>
-                                    <option>三星／舒适</option>
-                                    <option>经济型</option>
-                                    <option>特色场地Clubs</option>
-                                    <option>度假村Resorts</option>
-                                    <option>会议中心</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>房间数：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>电话：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>传真：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="part-info auth-info">
-                    <table>
-                        <tr>
-                            <td>可提供发票：</td>
-                            <td>
-                                <input name="invoice" id="invoice-provided" type="radio" value="invoice-provided" /><label for="invoice-provided">是</label>
-                                <input name="invoice" id="invoice-not-provided" type="radio" value="invoice-not-provided" /><label for="invoice-not-provided">否</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>可提供账单：</td>
-                            <td>
-                                <input name="bill" id="bill-provided" value="bill-provided" type="radio" /><label for="bill-provided">是</label>
-                                <input name="bill" id="bill-not-provided" value="bill-not-provided" type="radio" /><label for="bill-not-provided">否</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>三证上传：</td>
-                            <td>上传三证信息后，会优先审核哦～</td>
-                        </tr>
-                        <tr>
-                            <td>请上传营业执照：</td>
-                            <td><input type="file" /></td>
-                        </tr>
-                        <tr>
-                            <td>请上传组织机构代码证：</td>
-                            <td><input type="file" /></td>
-                        </tr>
-                        <tr>
-                            <td>请上传税务登记证：</td>
-                            <td><input type="file" /></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="part-info personal-info">
-                    <table>
-                        <tr>
-                            <td>性别：</td>
-                            <td>
-                               <input type="radio" id="male" value="male" name="gender" /><label for="male">男：</label>
-                                <input type="radio" id="female" value="female" name="gender" /><label for="female">男：</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>联系人：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>固定电话：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>手机：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>电子邮箱：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td>QQ：</td>
-                            <td><input type="text" name="" /></td>
-                        </tr>
-                        <tr>
-                            <td class="hotel-submit"><input type="submit" value="提交申请" /></td>
-                        </tr>
-                    </table>
-                </div>
+            <form action="" method="">
+                <fieldset>
+                    <legend>请输入酒店招标信息</legend>
+                        <div class="part-info basic-info">
+                            <table>
+                                <tr>
+                                    <td>酒店信息：</td>
+                                    <td><input placeholder="请输入酒店信息" type="text" /></td>
+                                </tr>
+                                <tr>
+                                    <td>酒店地址：</td>
+                                    <td>
+                                        <select class="city-select" id="province" name="province" onchange="LocalList.mf_processStateList()" style="display:inline;">
+                                        </select>
+                                        <select class="city-select" id="city" name="city" onchange="LocalList.mf_processCityList()" style="display:inline;">
+                                        </select>
+                                        <select class="city-select" id="area" name="area" style="display:inline;">
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr class="floatLeft">
+                                    <td>详细地址：</td>
+                                    <td><input placeholder="请输入详细地址" type="text" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="part-info more-info">
+                            <table>
+                                <tr>
+                                    <td>酒店类型：</td>
+                                    <td>
+                                        <select>
+                                            <option>五星／顶级</option>
+                                            <option>五星／豪华</option>
+                                            <option>五星／高档</option>
+                                            <option>五星／舒适</option>
+                                            <option>三星／舒适</option>
+                                            <option>经济型</option>
+                                            <option>特色场地Clubs</option>
+                                            <option>度假村Resorts</option>
+                                            <option>会议中心</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>房间数：</td>
+                                    <td><input placeholder="请输入需要的房间数" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>电话：</td>
+                                    <td><input placeholder="请输入联系电话" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>传真：</td>
+                                    <td><input placeholder="请输入传真号" type="text" name="" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="part-info auth-info">
+                            <table>
+                                <tr>
+                                    <td>可提供发票：</td>
+                                    <td>
+                                        <input name="invoice" id="invoice-provided" type="radio" value="invoice-provided" /><label for="invoice-provided">是</label>
+                                        <input name="invoice" id="invoice-not-provided" type="radio" value="invoice-not-provided" /><label for="invoice-not-provided">否</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>可提供账单：</td>
+                                    <td>
+                                        <input name="bill" id="bill-provided" value="bill-provided" type="radio" /><label for="bill-provided">是</label>
+                                        <input name="bill" id="bill-not-provided" value="bill-not-provided" type="radio" /><label for="bill-not-provided">否</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>三证上传：</td>
+                                    <td class="auth-tip">上传三证信息后，会优先审核哦～</td>
+                                </tr>
+                                <tr class="floatLeft">
+                                    <td>请上传营业执照：</td>
+                                    <td><input type="file" /></td>
+                                </tr>
+                                <tr class="floatLeft">
+                                    <td>请上传组织机构代码证：</td>
+                                    <td><input type="file" /></td>
+                                </tr>
+                                <tr class="floatLeft">
+                                    <td>请上传税务登记证：</td>
+                                    <td><input type="file" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="part-info personal-info">
+                            <table>
+                                <tr>
+                                    <td>性别：</td>
+                                    <td>
+                                        <input type="radio" id="male" value="male" name="gender" /><label for="male">男</label>
+                                        <input type="radio" id="female" value="female" name="gender" /><label for="female">女</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>联系人：</td>
+                                    <td><input placeholder="请输入联系人姓名" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>固定电话：</td>
+                                    <td><input placeholder="请输入你的固定电话号码" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>手机：</td>
+                                    <td><input placeholder="请输入你的手机号码" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>电子邮箱：</td>
+                                    <td><input placeholder="请输入你的电子邮箱" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td>QQ：</td>
+                                    <td><input placeholder="请输入你的QQ号" type="text" name="" /></td>
+                                </tr>
+                                <tr>
+                                    <td class="hotel-submit"><input type="submit" value="提交申请" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                </fieldset>
             </form>
         </div>
     </div>
+     <!-- content end -->
+
+    <?php
+        include "footer.php";
+    ?>
 </body>
 </html>
