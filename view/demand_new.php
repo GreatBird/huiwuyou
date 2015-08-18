@@ -154,7 +154,6 @@
                                     <input style="display:none;" id="hide-detail" class="demand-btn hide-detail" type="button" value="收起" />
                                 </div>
 								</a>
-								<br class="clr" />
 								<!-- 详细信息 -->
 								<div style="display:none" class="demand-content-wrapper">
                                 <div style="display:none;" class="demand-detail">
@@ -239,10 +238,8 @@
                                     <input style="display:none;" id="hide-detail" class="demand-btn hide-detail" type="button" value="收起" />
                                 </div>
 								</a>
-								<br class="clr" />
 								<!-- 详细信息 -->
 								<div style="display:none" class="demand-content-wrapper">
-                                <br class="clr" />
                                 <div style="display:none;" class="demand-detail">
                                     <ul>
                                         <li>
@@ -325,10 +322,8 @@
                                     <input style="display:none;" id="hide-detail" class="demand-btn hide-detail" type="button" value="收起" />
                                 </div>
 								</a>
-								<br class="clr" />
 								<!-- 详细信息 -->
 								<div style="display:none" class="demand-content-wrapper">
-                                <br class="clr" />
                                 <div style="display:none;" class="demand-detail">
                                     <ul>
                                         <li>
@@ -411,10 +406,8 @@
                                     <input style="display:none;" id="hide-detail" class="demand-btn hide-detail" type="button" value="收起" />
                                 </div>
 								</a>
-								<br class="clr" />
 								<!-- 详细信息 -->
 								<div style="display:none" class="demand-content-wrapper">
-                                <br class="clr" />
                                 <div style="display:none;" class="demand-detail">
                                     <ul>
                                         <li>
