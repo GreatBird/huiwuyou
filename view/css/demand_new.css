@@ -299,6 +299,10 @@
 	padding:4px 15px;
 	text-decoration:none;
 }
+.content-wrapper>.content a{
+	color:black!important;
+	text-decoration:none!important;
+}
 .city-list ul li.hot-city a{
 	display:inline-block;
 	height:45px;
@@ -324,7 +328,8 @@
 	margin-top:20px;
 }
 .demand-list>ul>li{
-	height:auto;
+	height:121px;
+	clear:both;
 }
 .demand-list>ul>li:after{
 	content: ".";
@@ -339,7 +344,7 @@
 .demand-list>ul>li>a{
 	position:relative;
 	display:block;
-	border-bottom:1px solid #ececec;
+	border-top:1px solid #ececec;
 	height:120px;
 	text-decoration:none;
 	color:black;
@@ -436,6 +441,7 @@ span.demand-for{
 	clear:both;
 }
 .demand-content-wrapper{
+	clear:both;
 	position:relative;
 	width:100%;
 }
