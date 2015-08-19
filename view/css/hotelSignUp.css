@@ -58,7 +58,7 @@ legend{
     width:180px;
     text-align:right;
 }
-.part-info>table tr>td>input[type="text"]{
+.part-info>table tr>td>input[type="text"],.part-info>table tr>td>input[type="email"]{
     width:250px;
     height:30px;
     padding:3px 6px;
