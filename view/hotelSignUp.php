@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="css/hotelSignUp.css" />
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/LocalList.js"></script>
+    <script src="js/validator.js" type="text/javascript"></script>
     <script>
         window.onload=function(){
             var options = {
@@ -20,8 +21,22 @@
             }
 
             LocalList.mf_init(options);
+
+            $("#hotelSignUp-form").validator();
         };
     </script>
+    <style>
+        .Klass{
+            border:1px solid red;
+        }
+        .error{
+            border:1px solid orange;
+        }
+        .error:after{
+            content:"";
+
+        }
+    </style>
 </head>
 <body>
     <div class="header-wrapper">
@@ -30,14 +45,14 @@
     </div>
     <div class="hotelSignUp-container">
         <div class="hotelSignUp">
-            <form action="" method="">
+            <form id="hotelSignUp-form" action="" method="">
                 <fieldset>
                     <legend>请输入酒店招标信息</legend>
                         <div class="part-info basic-info">
                             <table>
                                 <tr>
                                     <td>酒店信息：</td>
-                                    <td><input placeholder="请输入酒店信息" type="text" /></td>
+                                    <td><input required="required" placeholder="请输入酒店信息" type="text" /></td>
                                 </tr>
                                 <tr>
                                     <td>酒店地址：</td>
@@ -52,7 +67,7 @@
                                 </tr>
                                 <tr class="floatLeft">
                                     <td>详细地址：</td>
-                                    <td><input placeholder="请输入详细地址" type="text" /></td>
+                                    <td><input required placeholder="请输入详细地址" type="text" /></td>
                                 </tr>
                             </table>
                         </div>
@@ -76,11 +91,11 @@
                                 </tr>
                                 <tr>
                                     <td>房间数：</td>
-                                    <td><input placeholder="请输入需要的房间数" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入需要的房间数" type="text" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>电话：</td>
-                                    <td><input placeholder="请输入联系电话" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入联系电话" type="text" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>传真：</td>
@@ -110,15 +125,15 @@
                                 </tr>
                                 <tr class="floatLeft">
                                     <td>请上传营业执照：</td>
-                                    <td><input type="file" /></td>
+                                    <td><input required type="file" /></td>
                                 </tr>
                                 <tr class="floatLeft">
                                     <td>请上传组织机构代码证：</td>
-                                    <td><input type="file" /></td>
+                                    <td><input required type="file" /></td>
                                 </tr>
                                 <tr class="floatLeft">
                                     <td>请上传税务登记证：</td>
-                                    <td><input type="file" /></td>
+                                    <td><input required type="file" /></td>
                                 </tr>
                             </table>
                         </div>
@@ -133,19 +148,19 @@
                                 </tr>
                                 <tr>
                                     <td>联系人：</td>
-                                    <td><input placeholder="请输入联系人姓名" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入联系人姓名" type="text" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>固定电话：</td>
-                                    <td><input placeholder="请输入你的固定电话号码" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入你的固定电话号码" type="text" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>手机：</td>
-                                    <td><input placeholder="请输入你的手机号码" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入你的手机号码" type="text" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>电子邮箱：</td>
-                                    <td><input placeholder="请输入你的电子邮箱" type="text" name="" /></td>
+                                    <td><input required placeholder="请输入你的电子邮箱" type="email" name="" /></td>
                                 </tr>
                                 <tr>
                                     <td>QQ：</td>

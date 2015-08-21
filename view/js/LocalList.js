@@ -262,7 +262,7 @@ var LocalList = {
 		var ld_text = "", ld_value = "";
 		for (var l_i = 0; l_i < lo_Countrys.length; l_i++) {
 			ld_text = lo_Countrys[l_i].getAttribute("Name");
-			ld_value = lo_Countrys[l_i].getAttribute("Code");
+			ld_value = lo_Countrys[l_i].getAttribute("Name");
 			Util_List.mf_add(self.mo_countryObj, ld_text, ld_value);
 		}
 		lo_CountryDivObj.style.display = "inline";
@@ -290,7 +290,7 @@ var LocalList = {
 			var ld_Country = self.mo_countryObj.value;
 			var l_i = 0;
 			for (l_i = 0; l_i < lo_Countrys.length; l_i++) {
-				if (lo_Countrys[l_i].getAttribute("Code") == ld_Country) {
+				if (lo_Countrys[l_i].getAttribute("Name") == ld_Country) {
 					break;
 				}
 			}
@@ -306,7 +306,7 @@ var LocalList = {
 			var ld_text = "", ld_value = "";
 			for (l_i = 0; l_i < lo_States.length; l_i++) {
 				ld_text = lo_States[l_i].getAttribute("Name");
-				ld_value = lo_States[l_i].getAttribute("Code");
+				ld_value = lo_States[l_i].getAttribute("Name");
 				Util_List.mf_add(self.mo_stateObj, ld_text, ld_value);
 			}
 			lo_StateDivObj.style.display = "inline";
@@ -340,7 +340,7 @@ var LocalList = {
 			var ld_Country = self.mo_countryObj.value;
 			var l_i = 0;
 			for (l_i = 0; l_i < lo_Countrys.length; l_i++) {
-				if (lo_Countrys[l_i].getAttribute("Code") == ld_Country) {
+				if (lo_Countrys[l_i].getAttribute("Name") == ld_Country) {
 					break;
 				}
 			}
@@ -352,7 +352,7 @@ var LocalList = {
 			if (lo_States.length > 1) {
 				var ld_State = self.mo_stateObj.value;
 				for (; l_i < lo_States.length; l_i++) {
-					if (lo_States[l_i].getAttribute("Code") == ld_State) {
+					if (lo_States[l_i].getAttribute("Name") == ld_State) {
 						break;
 					}
 				}
@@ -369,7 +369,7 @@ var LocalList = {
 			var ld_text = "", ld_value = "";
 			for (l_i = 0; l_i < lo_Citys.length; l_i++) {
 				ld_text = lo_Citys[l_i].getAttribute("Name");
-				ld_value = lo_Citys[l_i].getAttribute("Code");
+				ld_value = lo_Citys[l_i].getAttribute("Name");
 				Util_List.mf_add(self.mo_cityObj, ld_text, ld_value);
 			}
 			lo_CityDivObj.style.display = "inline";

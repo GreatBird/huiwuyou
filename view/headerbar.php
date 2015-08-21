@@ -13,7 +13,7 @@
                     </a>
                     <ul class="fast-link">
                         <li>
-                            <a href="index.php">网站首页</a>
+                            <a href="newIndex.php">网站首页</a>
                         </li>
                         <li>
                             <a href="#">酒店会场</a>

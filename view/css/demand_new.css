@@ -299,6 +299,10 @@
 	padding:4px 15px;
 	text-decoration:none;
 }
+.content-wrapper>.content a{
+	color:black!important;
+	text-decoration:none!important;
+}
 .city-list ul li.hot-city a{
 	display:inline-block;
 	height:45px;

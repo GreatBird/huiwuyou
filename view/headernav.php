@@ -3,7 +3,7 @@
             <div class="navigation">
                 <ul>
                     <li>
-                        <a href="#">首页</a>
+                        <a href="newIndex.php">首页</a>
                     </li>
                     <li class="place">
                         <a href="venue.php">找场地</a>
