@@ -21,7 +21,7 @@
 <div class="venue-wrapper">
     <div class="venue">
         <div class="bread-cumb">
-            <a href="index.php">首页</a> &gt; <a href="venue.php">会场</a>
+            <a href="newIndex.php">首页</a> &gt; <a href="venue.php">会场</a>
         </div>
         <div class="venue-type">
             <div class="venue-search">
