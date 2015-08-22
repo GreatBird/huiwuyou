@@ -100,71 +100,40 @@ body{
     width:280px;
     height:420px;
 }
-.order-form-wrapper{
+.hotel-enter-wrapper{
     width:285px;
     float:left;
     height:420px;
     border:1px solid #ddd;
+    background:url(../resource/hotel.png);
+    background-size:cover;
+    overflow:hidden;
     background-color:#f3f5f8;
 }
-.order-form{
+.hotel-enter{
     width:255px;
+    height:420px;
     margin:auto;
 }
-.order-form-txt{
-    padding:25px 0px 12px;
+.hotel-enter>a{
+    text-decoration:none;
 }
-.order-form-txt p span{
-    font-size:14px;
+.hotel-enter>a>h3{
+    height:40px;
+    margin-top:96px;
+    line-height:40px;
     vertical-align:middle;
-    color:#999;
-    line-height:1.6;
-}
-.o-form .txt-icon{
-    width:255px;
-    height:36px;
-    border:1px solid #dedede;
-    outline:none;
-    padding-left:30px;
-    margin-bottom:16px;
-}
-.order-city input{
-    background-position:-520px -145px;
-}
-.order-name input{
-    background-position:-520px -192px;
-}
-.order-contact input{
-    background-position:-520px -238px;
-}
-.order-btn input{
-    width:255px;
-    height:36px;
-    outline:none;
-    border:none;
-    background-color:rgb(41,105,251);
-
+    font-size:18px;
+    width:160px;
+    text-align:center;
+    color:white;
+    margin-left:10px;
+    background-color:rgb(246,174,50);
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     -ms-border-radius:5px;
     -o-border-radius:5px;
     border-radius:5px;
-    color:white;
-    font-size:16px;
-}
-.notice-message{
-    background-color:white;
-    height:100px;
-    margin-top:20px;
-    font-size:12px;
-    text-align:center;
-    padding-top:28px;
-}
-.curr-order-name{
-    margin-right:20px;
-}
-.curr-order-phone{
-    color:rgb(41,105,251);
 }
 .meeting-wrapper{
     width:100%;

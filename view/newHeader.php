@@ -49,18 +49,18 @@
 						<div class="hd-nav">
 							<ul>
 								<li><a href="index.php">首页</a></li>
-								<li>
+								<li class="place">
 									<a href="venue.php">找场地<i class="fa fa-angle-down"></i></a>
-									<ul style="display:none;">
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-									</ul>
+									<div class="place-cate-wrapper">
+										<ul class="place-cate">
+											<li><a href="#">会议场地</a></li>
+											<li><a href="#">宴会场地</a></li>
+											<li><a href="#">聚会场地</a></li>
+											<li><a href="#">展览/演出</a></li>
+											<li><a href="#">商业场地</a></li>
+											<li><a href="#">特色场地</a></li>
+										</ul>
+									</div>
 								</li>
 								<li><a href="#">会议套餐</a></li>
 								<li><a href="#">配套服务</a></li>

@@ -36,7 +36,7 @@
                             <p>
                                 <a href="#"><img src="resource/connect_sina_weibo.png" alt="weibo" title="weibo" /><span>微博登录</span></a>
                                 <a href="#"><img src="resource/connect_qq.png" alt="qq" title="qq" /><span>QQ登录</span></a>
-                                <span>如果还没有账号？<a class="direct-register" href="#">立即注册</a></span>
+                                <span>如果还没有账号？<a class="direct-register" href="register.php">立即注册</a></span>
                             </p>
                         </div>
                     </form>

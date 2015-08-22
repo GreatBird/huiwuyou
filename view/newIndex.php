@@ -6,7 +6,9 @@
         <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet" />
         <link type="text/css" href="css/index.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/demand_new.css" />
+        <link rel="stylesheet" type="text/css" href="css/quickSearch.css" />
         <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+        <script src="js/quickSearch.js"></script>
     </head>
     <body>
     <?php
@@ -16,6 +18,9 @@
     <!-- content-start -->
     <div class="content-wrapper">
         <div class="slider">
+            <?php
+                include "quickSearch.php";
+            ?>
             <a href="#"></a>
         </div>
         <div class="content">
@@ -67,40 +72,9 @@
 
             <!-- 热门酒店推荐开始 -->
             <div class="hot-hotel">
-                <div class="order-form-wrapper">
-                     <div class="order-form">
-                        <div class="order-form-txt">
-                            <h5>免费匹配3～5个优质地</h5>
-                            <p>
-                                <span>省去中间环节</span>
-                                <br />
-                                <span>商家快速报价</span>
-                            </p>
-                        </div>
-                        <div class="o-form">
-                            <form action="" method="">
-                                <div class="order-city">
-                                    <input class="txt-icon" type="text" placeholder="活动城市" />
-                                </div>
-                                <div class="order-name">
-                                    <input class="txt-icon" type="text" placeholder="您的称呼" />
-                                </div>
-                                <div class="order-contact">
-                                    <input class="txt-icon" type="text" placeholder="您的联系电话" />
-                                </div>
-                                <div class="order-btn">
-                                    <input type="submit" value="立即申请" />
-                                </div>
-                            </form>
-                        </div>
-                        <div class="notice-message">
-                            <p>
-                                <span class="curr-order-name">南京大学</span><span class="curr-order-phone">15903420323</span>
-                                <br />
-                                <br />
-                                <span>已获得免费场地方案</span>
-                            </p>
-                        </div>
+                <div class="hotel-enter-wrapper">
+                     <div class="hotel-enter">
+                        <a href="hotelSignUp.php"><h3>酒店加盟入口</h3></a>
                     </div>
                 </div>
                 <ul>

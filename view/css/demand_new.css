@@ -220,6 +220,7 @@
 	height:40px;
 	background-color:#2577e3;
 	z-index:10;
+	position:relative;
 }
 
 .hd-nav{
@@ -227,7 +228,6 @@
 	margin:auto;
 	font-size:16px;
 	color:white;
-	position:relative;
 }
 .hd-nav ul{
 	list-style:none;
@@ -240,6 +240,43 @@
 	height:40px;
 	line-height:40px;
 	vertical-align: middle;
+}
+
+.place:hover .place-cate-wrapper{
+	display:block;
+}
+.place-cate-wrapper{
+	display:none;
+	width:100%;
+	height:36px;
+	position:absolute;
+	left:0px;
+	top:39px;
+	background-color:rgb(233,229,231);
+	opacity:.8;
+	font-size:14px;
+	z-index:100;
+}
+.place-cate{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+ul.place-cate>li{
+	float:left;
+	margin-left:60px;
+	height:36px;
+}
+ul.place-cate>li>a{
+	display:inline-block;
+	height:36px;
+	line-height:36px;
+	vertical-align:middle;
+	color:black!important;
+}
+
+.slider{
+	position:relative;
 }
 .hd-nav .fa-angle-down{
 	color:white;
