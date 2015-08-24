@@ -48,7 +48,7 @@
 					<div class="hd-nav-bar">
 						<div class="hd-nav">
 							<ul>
-								<li><a href="index.php">首页</a></li>
+								<li><a href="newIndex.php">首页</a></li>
 								<li class="place">
 									<a href="venue.php">找场地<i class="fa fa-angle-down"></i></a>
 									<div class="place-cate-wrapper">
