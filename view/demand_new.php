@@ -381,6 +381,25 @@
 						</ul>
 					</div>
 				</div>
+				<div class="page-index-container">
+				    <ul>
+				        <li class="pre-page">
+				            <a href="#">上一页</a>
+				        </li>
+				        <li>
+                            <a href="#">1</a>
+				        </li>
+                        <li>
+                            <a href="#">2</a>
+				        </li>
+				        <li>
+				            <a href="#">3</a>
+				        </li>
+				        <li class="next-page">
+				            <a href="#">下一页</a>
+				        </li>
+				    </ul>
+				</div>
 			</div>
 			<!-- 需求大厅内容结束 -->
 
